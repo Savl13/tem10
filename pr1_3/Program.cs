@@ -24,7 +24,7 @@ namespace PracticeTask
 
         public void AddPromotion(string promotion)
         {
-            Console.WriteLine("\n🔥 Новая акция: " + promotion);
+            Console.WriteLine("\nНовая акция: " + promotion);
             Notify(promotion);
         }
 
@@ -48,7 +48,7 @@ namespace PracticeTask
 
         public void Update(string promotion)
         {
-            Console.WriteLine($"⭐ ЛОЯЛЬНЫЙ клиент {Name}: {promotion}");
+            Console.WriteLine($"ЛОЯЛЬНЫЙ клиент {Name}: {promotion}");
         }
     }
 
@@ -63,7 +63,7 @@ namespace PracticeTask
 
         public void Update(string promotion)
         {
-            Console.WriteLine($"👤 клиент {Name}: {promotion}");
+            Console.WriteLine($"клиент {Name}: {promotion}");
         }
     }
 
